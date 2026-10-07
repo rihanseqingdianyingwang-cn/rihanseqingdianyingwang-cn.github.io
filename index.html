@@ -4,201 +4,182 @@
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="日本情色电影网 - 日本情色电影在线观看导航，收录是枝裕和、北野武、新海诚、宫崎骏等导演代表作，按年代、类型、导演、豆瓣评分分类整理，含日剧、动画、纪录片与近期新片。">
-<meta name="keywords" content="日本情色电影网, 日本情色电影, 日本情色剧情片, 日剧, 日本情色动画电影, 是枝裕和, 新海诚, 宫崎骏, 高分日本情色电影, 影视资源导航">
-<meta name="author" content="日本情色电影网">
-<meta name="theme-color" content="#0f6e6e">
-<title>日本情色电影网 - 日本情色电影在线观看导航 | 高分日剧动画推荐</title>
+<meta name="description" content="日韩色情电影网 - 日本色情电影、韩国色情电影在线观看导航，收录高分日剧韩剧、动漫、综艺与院线新片，按类型、年份、评分分类整理，免费高清、每日更新。">
+<meta name="keywords" content="日韩色情电影网, 日本色情电影, 韩国色情电影, 日剧, 韩剧, 动漫, 高分电影, 影视资源导航, 在线观影">
+<meta name="author" content="日韩色情电影网">
+<meta name="theme-color" content="#7a1020">
+<title>日韩色情电影网 - 日本韩国色情电影在线观看导航 | 高分日剧韩剧推荐</title>
 <style>
-/* ============ 日本情色电影网 · 单页导航（靛青 + 纸白 + 朱印，浮世绘留白） ============ */
+/* ============ 日韩色情电影网 · 单页影视导航（和风朱红 + 墨白） ============ */
 :root{
-  --teal:#0f6e6e;     /* 靛青 */
-  --teal2:#159a94;
-  --indigo:#2a3f7a;   /* 绀青 */
-  --ink:#26303a;      /* 墨 */
-  --paper:#f7f4ee;    /* 和纸 */
-  --paper2:#fffdf9;
-  --line:#e3ddd0;
-  --sub:#8b8377;
-  --red:#c8332b;      /* 朱 */
-  --gold:#c79a3c;
+  --red:#a31931;      /* 朱红 */
+  --red2:#c8364f;
+  --ink:#1c1c1c;      /* 墨 */
+  --paper:#f7f4ef;    /* 和纸 */
+  --cream:#fffdfa;
+  --line:#e6ddd3;
+  --gold:#c9a24b;
+  --sub:#7a7068;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
-  background:var(--paper);color:var(--ink);line-height:1.8;overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  background:var(--paper);color:var(--ink);line-height:1.75;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 ul,ol{list-style:none}
 button,input{font-family:inherit;outline:none}
-::selection{background:var(--teal);color:#fff}
+::selection{background:var(--red);color:#fff}
 
 .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
 
-/* ============ 顶导（墨色实心） ============ */
+/* ============ 顶导（朱红底 + 白字） ============ */
 .nav{position:sticky;top:0;z-index:60;background:var(--ink);border-bottom:3px solid var(--red)}
-.nav-in{display:flex;align-items:center;gap:16px;height:60px}
-.brand{display:flex;align-items:center;gap:10px}
-.brand b{font-size:19px;color:#fff;font-weight:950;letter-spacing:2px}
-.brand s{text-decoration:none;font-size:10px;color:var(--ink);background:var(--gold);padding:3px 9px;font-weight:900;letter-spacing:1px;white-space:nowrap}
+.nav-in{display:flex;align-items:center;gap:14px;height:60px}
+.brand{display:flex;align-items:baseline;gap:9px}
+.brand b{font-size:19px;color:#fff;font-weight:950;letter-spacing:1px}
+.brand s{text-decoration:none;font-size:10.5px;color:var(--ink);background:var(--gold);padding:3px 9px;border-radius:4px;font-weight:900;letter-spacing:.5px}
 .nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
-.nav-links a{padding:7px 14px;font-size:13.5px;color:#d8e2e6;font-weight:700;transition:.2s;white-space:nowrap;position:relative}
-.nav-links a::after{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:2px;background:var(--red);transform:scaleX(0);transition:.25s;transform-origin:right}
-.nav-links a:hover{color:#fff}
-.nav-links a:hover::after{transform:scaleX(1);transform-origin:left}
+.nav-links a{padding:7px 13px;font-size:13.5px;color:#e7dfd6;font-weight:700;border-radius:6px;transition:.2s;white-space:nowrap}
+.nav-links a:hover{color:#fff;background:var(--red)}
 
-/* ============ Hero（山水留白） ============ */
-.hero{position:relative;padding:70px 0 60px;color:#fff;text-align:center;overflow:hidden;
-  background:linear-gradient(180deg,#16304f 0%, #0f6e6e 60%, #159a94 100%)}
-.mountain{position:absolute;left:0;right:0;bottom:0;height:150px;pointer-events:none;opacity:.5}
-.mountain i{position:absolute;bottom:0;border-radius:50% 50% 0 0}
-.mountain i:nth-child(1){left:-8%;width:56%;height:120px;background:#0d5454}
-.mountain i:nth-child(2){left:24%;width:48%;height:150px;background:#123f4a}
-.mountain i:nth-child(3){right:-10%;width:60%;height:100px;background:#0a4747}
-.sun{position:absolute;right:8%;top:14%;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle at 35% 32%,#ffd98a,#e8723a 60%,#c8332b);opacity:.9;box-shadow:0 0 80px rgba(232,114,58,.5)}
-.hero .inner{position:relative;z-index:2}
-.h-lbl{display:inline-block;font:800 11px/1 "SFMono-Regular",Consolas,monospace;letter-spacing:5px;color:#ffd98a;border:1px solid rgba(255,217,138,.5);padding:6px 14px;border-radius:3px}
-h1{margin-top:16px;font:950 clamp(30px,8vw,58px)/1.14 "PingFang SC","Microsoft YaHei",serif;letter-spacing:3px}
-h1 em{font-style:normal;color:#ffd98a}
-.hero .lead{margin:16px auto 0;max-width:640px;color:#e2f1f0;font-size:14.5px}
-.search{margin:26px auto 0;max-width:600px;display:flex;background:#fff;border-radius:3px;overflow:hidden;padding:5px}
-.search input{flex:1;min-width:0;border:none;padding:12px 18px;font-size:15px;color:var(--ink)}
-.search input::placeholder{color:#a8a094}
-.search button{border:none;cursor:pointer;background:var(--red);color:#fff;padding:0 28px;font-weight:950;letter-spacing:3px;font-size:15px}
-.chips{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-top:20px}
-.chips a{font-size:12.5px;color:#e2f1f0;border:1px solid rgba(255,255,255,.4);padding:5px 15px;transition:.2s;background:rgba(0,0,0,.12)}
-.chips a:hover{background:#fff;color:var(--teal)}
+/* ============ Hero（浮世绘海浪） ============ */
+.hero{position:relative;padding:64px 0 54px;color:#fff;overflow:hidden;text-align:center;background:
+  radial-gradient(620px 380px at 90% 8%, rgba(201,162,75,.42), transparent 60%),
+  linear-gradient(160deg,#3d0c14 0%, #7a1020 48%, #a31931 100%)}
+.wave{position:absolute;left:0;right:0;bottom:0;height:74px;opacity:.5;
+  background-image:radial-gradient(circle at 26px 46px,#fff 26px,transparent 27px),radial-gradient(circle at -26px 46px,#fff 26px,transparent 27px);
+  background-size:52px 52px;background-position:0 22px,26px 0;transform:rotate(180deg)}
+.hero .kan{position:relative;font:900 12px/1 "Yu Mincho","Songti SC",serif;letter-spacing:6px;color:var(--gold)}
+.hero h1{position:relative;font-size:clamp(32px,8vw,58px);font-weight:950;letter-spacing:2px;line-height:1.18;margin-top:12px}
+.hero h1 u{text-decoration:none;color:#ffe9b8}
+.hero .sub{position:relative;max-width:650px;margin:14px auto 0;color:#f6e4dd;font-size:15px}
+.search{position:relative;margin:26px auto 0;max-width:600px;display:flex;gap:0;padding:5px;border-radius:999px;background:rgba(255,255,255,.14);border:1.4px solid rgba(255,255,255,.3)}
+.search input{flex:1;background:none;border:none;color:#fff;padding:12px 22px;font-size:15px;min-width:0}
+.search input::placeholder{color:#f3ddd4}
+.search button{border:none;cursor:pointer;border-radius:999px;padding:12px 28px;font-weight:950;letter-spacing:3px;color:#fff;background:var(--ink)}
+.chips{position:relative;display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.chips a{font-size:12.5px;color:#f6e4dd;border:1px solid rgba(255,255,255,.34);padding:5px 15px;border-radius:999px;transition:.2s}
+.chips a:hover{background:#fff;color:var(--red);border-color:#fff}
 
 /* ============ 通用 ============ */
-.sec{padding:50px 0}
-.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:24px;flex-wrap:wrap}
-.sec-head .stamp{width:34px;height:34px;flex:none;display:grid;place-items:center;color:#fff;font:950 13px/1 "PingFang SC",serif;background:var(--red);border-radius:4px;transform:rotate(-4deg)}
-.sec-head h2{font-size:25px;font-weight:950;letter-spacing:1px;font-family:"PingFang SC","Microsoft YaHei",serif}
+.sec{padding:48px 0}
+.sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:24px;flex-wrap:wrap}
+.sec-head .jp{font:900 15px/1 "Yu Mincho","Songti SC",serif;color:var(--red);letter-spacing:2px}
+.sec-head h2{font-size:25px;font-weight:950;letter-spacing:1px;position:relative;padding-left:14px}
+.sec-head h2::before{content:"";position:absolute;left:0;top:4px;bottom:4px;width:5px;background:var(--red);border-radius:3px}
 .sec-head small{color:var(--sub);font-size:13px;margin-left:auto}
 
-/* ============ 一、年度新片 —— 竖向卷轴条目 ============ */
-#new .scroll{background:var(--paper2);border:1px solid var(--line);border-radius:4px;padding:10px 24px}
-.it{display:grid;grid-template-columns:76px 1fr auto;align-items:center;gap:18px;padding:16px 0;border-bottom:1px dotted var(--line)}
-.it:last-child{border-bottom:none}
-.it .yr{font:950 15px/1 "SFMono-Regular",Consolas,monospace;color:var(--teal);letter-spacing:.5px}
-.it .yr s{text-decoration:none;display:block;font:700 10px/1.4 "SFMono-Regular",monospace;color:var(--sub);letter-spacing:1px;margin-top:3px}
-.it h3{font-size:15.5px;font-weight:900}
-.it h3 dfn{font-style:normal;font-size:11.5px;color:var(--sub);font-weight:600;margin-left:8px}
-.it p{font-size:12.5px;color:var(--sub);margin-top:2px}
-.it .go{font-size:11.5px;font-weight:900;color:#fff;background:var(--indigo);padding:6px 14px;white-space:nowrap;transition:.2s}
-.it:hover{background:linear-gradient(90deg,#eef7f7,transparent)}
-.it:hover .go{background:var(--red)}
+/* ============ 栏目一：本周上新 —— 折扇式交错卡片 ============ */
+#new .fan{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.fi{position:relative;background:var(--cream);border:1px solid var(--line);border-radius:4px;overflow:hidden;transition:.3s;cursor:pointer}
+.fi:nth-child(even){transform:translateY(14px)}
+.fi:hover{box-shadow:0 20px 42px rgba(28,28,28,.16);border-color:#e0c9b8}
+.fi .cov{height:150px;position:relative;color:#fff;padding:16px}
+.fi .cov b{position:relative;font-size:16px;font-weight:950;letter-spacing:1px;text-shadow:0 2px 8px rgba(0,0,0,.35)}
+.fi .cov em{position:absolute;right:14px;bottom:12px;font-style:normal;font-size:10.5px;background:rgba(0,0,0,.4);padding:2px 8px;border-radius:3px}
+.fi .cov::after{content:"";position:absolute;left:0;right:0;bottom:0;height:50%;background:linear-gradient(180deg,transparent,#0008)}
+.fi .txt{padding:13px 16px}
+.fi .txt h3{font-size:14.5px;font-weight:880;display:flex;justify-content:space-between;gap:8px}
+.fi .txt h3 s{text-decoration:none;font-size:10.5px;color:var(--red);border:1px solid var(--red);border-radius:3px;padding:1px 6px;font-weight:700;white-space:nowrap}
+.fi .txt p{font-size:12px;color:var(--sub);margin-top:5px}
 
-/* ============ 二、导演谱系 —— 双栏家谱树 ============ */
-#tree{background:var(--ink);color:#e8ede7;padding:50px 0}
-#tree .sec-head .stamp{background:var(--gold)}
-#tree .sec-head h2{color:#fff}
-#tree .sec-head small{color:#9fb0ae}
-.tree{display:grid;grid-template-columns:1fr 1fr;gap:26px}
-.branche{border-left:3px solid var(--teal2);padding-left:18px}
-.branche h3{font-size:15px;font-weight:900;color:#ffd98a;letter-spacing:1px;margin-bottom:10px;display:flex;align-items:center;gap:8px}
-.branche h3::before{content:"";width:8px;height:8px;background:var(--red);border-radius:50%}
-.node{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);padding:12px 16px;margin-bottom:9px;transition:.24s;cursor:pointer}
-.node:hover{border-color:var(--teal2);transform:translateX(6px);background:rgba(21,154,148,.14)}
-.node b{font-size:14.5px;font-weight:900}
-.node span{display:block;font-size:11.5px;color:#9fb0ae;margin-top:2px}
-.node i{font-style:normal;font-size:11px;color:var(--gold);font-weight:800;float:right}
+/* ============ 栏目二：人气榜 —— 杂志序号大字体 ============ */
+#hot .mag{background:var(--cream);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.mg{display:grid;grid-template-columns:88px 1fr auto;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid var(--line);transition:.2s}
+.mg:last-child{border-bottom:none}
+.mg:hover{background:#fbeef0}
+.mg .big{font:950 42px/1 "Yu Mincho","Songti SC",Georgia,serif;color:#ece3d8;transition:.25s}
+.mg:hover .big{color:var(--red)}
+.mg:nth-child(1) .big{color:#e3c15a}
+.mg:nth-child(2) .big{color:#b9c2cc}
+.mg:nth-child(3) .big{color:#cf8b63}
+.mg .info h3{font-size:15px;font-weight:880}
+.mg .info span{font-size:11.5px;color:var(--sub)}
+.mg .rate{text-align:right;white-space:nowrap}
+.mg .rate b{display:block;font-size:20px;font-weight:950;color:var(--red);font-variant-numeric:tabular-nums}
+.mg .rate small{font-size:10.5px;color:var(--sub)}
 
-/* ============ 三、类型频道 —— 和纸色卡（大写字母 + 细线） ============ */
-#genre .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);background:var(--paper2)}
-.gc{padding:22px 20px;position:relative;overflow:hidden;cursor:pointer;transition:.3s;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
-.gc .big{font:950 44px/1 "Georgia","Songti SC",serif;color:rgba(15,110,110,.14);position:absolute;right:10px;top:6px;transition:.3s}
-.gc h3{position:relative;font-size:17px;font-weight:950;letter-spacing:2px;color:var(--ink);z-index:2}
-.gc p{position:relative;font-size:11.5px;color:var(--sub);margin-top:6px;z-index:2}
-.gc .bar{position:absolute;left:0;bottom:0;height:4px;width:0;background:var(--red);transition:.35s}
-.gc:hover{background:#fff;box-shadow:0 16px 34px rgba(38,48,58,.14);transform:translateY(-5px);z-index:3}
-.gc:hover .bar{width:100%}
-.gc:hover .big{color:rgba(200,51,43,.22);transform:scale(1.12)}
+/* ============ 栏目三：类型频道 —— 竖排标签 + 悬浮展开 ============ */
+#type .vlist{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--cream)}
+.vl{position:relative;padding:20px 18px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:.26s;cursor:pointer;min-height:132px;display:flex;flex-direction:column;justify-content:space-between}
+.vl:nth-child(4n){border-right:none}
+.vl:nth-child(n+5){border-bottom:none}
+.vl .vt{font:900 12px/1 "Yu Mincho","Songti SC",serif;color:var(--gold);letter-spacing:3px}
+.vl h3{font-size:19px;font-weight:950;margin-top:8px;letter-spacing:1px}
+.vl p{font-size:11.5px;color:var(--sub);margin-top:6px;max-height:0;overflow:hidden;transition:.28s;opacity:0}
+.vl:hover{background:var(--red);color:#fff;border-color:var(--red);transform:scale(1.03);z-index:3;box-shadow:0 16px 34px rgba(163,25,49,.3)}
+.vl:hover .vt{color:#ffe9b8}
+.vl:hover p{color:#f8e3dd;max-height:60px;opacity:1;margin-top:10px}
 
-/* ============ 四、高分榜 —— 报纸头条（左大右榜） ============ */
-#top .paper{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;background:var(--paper2);border:1px solid var(--line);padding:22px}
-.lead-big{border:2px solid var(--ink);padding:16px;position:relative}
-.lead-big .kicker{font:800 11px/1 "SFMono-Regular",monospace;color:var(--red);letter-spacing:3px}
-.lead-big h3{font-size:22px;font-weight:950;letter-spacing:1px;margin-top:8px;font-family:"PingFang SC",serif}
-.lead-big .score{margin-top:10px;font:950 32px/1 "SFMono-Regular",monospace;color:var(--teal)}
-.lead-big p{font-size:13px;color:#5f6a72;margin-top:10px}
-.lead-big .tag{position:absolute;right:-2px;top:-2px;background:var(--gold);color:#fff;font-size:11px;font-weight:900;padding:4px 10px}
-.ranks{display:flex;flex-direction:column}
-.rk{display:grid;grid-template-columns:30px 1fr auto;align-items:baseline;gap:10px;padding:11px 0;border-bottom:1px solid var(--line)}
-.rk:last-child{border-bottom:none}
-.rk .n{font:950 16px/1 "SFMono-Regular",monospace}
-.rk:nth-child(1) .n{color:var(--gold)}
-.rk:nth-child(2) .n{color:#8b8377}
-.rk:nth-child(3) .n{color:#b0724a}
-.rk h4{font-size:14px;font-weight:850}
-.rk s{text-decoration:none;font-size:11px;color:var(--sub);display:block;margin-top:1px}
-.rk b{font:800 14px/1 "SFMono-Regular",monospace;color:var(--red);font-variant-numeric:tabular-nums}
+/* ============ 栏目四：经典导演 —— 双栏对照表 ============ */
+#dir .duo{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.dk{background:var(--cream);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.dk h3{background:var(--ink);color:#fff;font-size:14px;font-weight:900;letter-spacing:2px;padding:11px 18px;display:flex;justify-content:space-between}
+.dk h3 s{text-decoration:none;font-size:11px;color:var(--gold);font-weight:700;letter-spacing:1px}
+.dk ul li{padding:11px 18px;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:10px;font-size:13px;transition:.2s}
+.dk ul li:last-child{border-bottom:none}
+.dk ul li:hover{background:#fbeef0;padding-left:24px}
+.dk ul li em{font-style:normal;font-size:11px;color:var(--red);font-weight:800;white-space:nowrap}
 
-/* ============ 五、观影手帖 —— 手风琴折叠 ============ */
-#note .acc{border:1px solid var(--line);background:var(--paper2)}
-details{position:relative}
-details+details{border-top:1px solid var(--line)}
-summary{cursor:pointer;padding:17px 22px;font-size:15.5px;font-weight:900;list-style:none;display:flex;align-items:center;gap:12px;transition:.2s}
-summary::-webkit-details-marker{display:none}
-summary::before{content:attr(data-n);font:950 12px/1 "SFMono-Regular",monospace;color:#fff;background:var(--teal);padding:6px 9px;flex:none}
-summary::after{content:"＋";margin-left:auto;color:var(--red);font-size:20px;font-weight:400;transition:.25s}
-details[open] summary::after{content:"－";transform:rotate(180deg)}
-summary:hover{background:#eef7f7}
-.dbody{padding:4px 22px 20px 58px;font-size:13.5px;color:#5f6a72}
-.dbody ol{list-style:none;counter-reset:m}
-.dbody ol li{counter-increment:m;padding:7px 0 7px 26px;position:relative;border-bottom:1px dashed var(--line)}
-.dbody ol li:last-child{border-bottom:none}
-.dbody ol li::before{content:counter(m,decimal-leading-zero);position:absolute;left:0;top:7px;font:800 11px/1 "SFMono-Regular",monospace;color:var(--teal2)}
+/* ============ 栏目五：追剧日历 —— 周历格 ============ */
+#cal .week{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
+.wd{background:var(--cream);border:1px solid var(--line);border-top:3px solid var(--red);border-radius:5px;padding:11px 10px;min-height:118px;transition:.24s}
+.wd:hover{transform:translateY(-5px);box-shadow:0 14px 28px rgba(28,28,28,.12)}
+.wd .wk{font:900 10.5px/1 "SFMono-Regular",Consolas,monospace;color:var(--sub);letter-spacing:1px}
+.wd .dt{font:950 19px/1.2 "Yu Mincho",Georgia,serif;margin-top:4px;color:var(--ink)}
+.wd .dt i{font-style:normal;font-size:10.5px;color:var(--red);margin-left:3px}
+.wd p{font-size:11px;color:var(--sub);margin-top:7px;line-height:1.5}
+.wd.on{background:linear-gradient(160deg,#7a1020,#a31931);color:#fff;border-color:#5c0c18}
+.wd.on .wk,.wd.on p{color:#f6e4dd}
+.wd.on .dt{color:#ffe9b8}
 
-/* ============ 六、关于 —— 朱印统计 + 数据条 ============ */
-#about .board{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}
-.stats{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.st{background:var(--paper2);border:1px solid var(--line);border-top:4px solid var(--teal);padding:20px}
-.st b{display:block;font-size:28px;font-weight:950;color:var(--teal);letter-spacing:.5px;font-variant-numeric:tabular-nums}
+/* ============ 栏目六：关于 —— 印章式数据 ============ */
+#about .hanko{background:var(--cream);border:1.6px solid var(--ink);border-radius:6px;padding:28px 30px;position:relative}
+.hanko::before{content:"映";position:absolute;right:22px;top:18px;width:66px;height:66px;border:3px solid var(--red);color:var(--red);border-radius:6px;
+  font:950 34px/66px "Yu Mincho","Songti SC",serif;text-align:center;opacity:.9}
+.hanko h3{font-size:21px;font-weight:950;letter-spacing:1px;max-width:78%}
+.hanko > p{margin-top:12px;color:#5c544d;font-size:14px;max-width:80%}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.st{background:#fff;border:1px solid var(--line);border-left:4px solid var(--red);border-radius:5px;padding:16px}
+.st b{display:block;font-size:25px;font-weight:950;color:var(--red);letter-spacing:.5px}
 .st span{font-size:11.5px;color:var(--sub)}
-.inCard{background:var(--ink);color:#e8ede7;padding:28px;border-radius:4px;position:relative;overflow:hidden}
-.inCard .seal{position:absolute;right:20px;top:20px;width:62px;height:62px;border:3px solid var(--red);color:var(--red);display:grid;place-items:center;font:950 20px/1 "PingFang SC",serif;transform:rotate(8deg);opacity:.9}
-.inCard h3{font-size:19px;font-weight:950;letter-spacing:1px;color:#fff;font-family:"PingFang SC",serif}
-.inCard > p{margin-top:12px;font-size:13.5px;color:#c3cfd2}
-.inCard .bars{margin-top:18px}
-.inCard .bars .row{display:flex;align-items:center;gap:10px;font-size:11.5px;margin-bottom:9px;color:#9fb0ae}
-.inCard .bars .row b{width:58px;flex:none;font-weight:800;color:#ffd98a}
-.inCard .bars .track{flex:1;height:8px;background:rgba(255,255,255,.12);overflow:hidden}
-.inCard .bars .track i{display:block;height:100%;background:linear-gradient(90deg,var(--teal2),var(--gold))}
+.tip{margin-top:18px;padding:15px 18px;background:#fff8ec;border:1.4px dashed var(--gold);border-radius:6px;font-size:13.5px;color:#7a5c14}
+.tip b{color:#a1740f}
 
 /* ============ 页脚 ============ */
-footer{border-top:6px solid var(--teal);padding:34px 0 44px;background:var(--ink);color:#9fb0ae;margin-top:34px}
+footer{border-top:4px solid var(--red);padding:34px 0 44px;background:var(--ink);color:#c9bfb4;margin-top:34px}
 .foot{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;font-size:13px}
-.foot b{color:#fff;font-size:15px;letter-spacing:1px;font-family:"PingFang SC",serif}
+.foot b{color:#fff;font-size:15px;letter-spacing:1px}
 .foot-links{display:flex;gap:16px;flex-wrap:wrap}
-.foot-links a{color:#9fb0ae;font-weight:600}
-.foot-links a:hover{color:#ffd98a}
+.foot-links a{color:#c9bfb4;font-weight:600}
+.foot-links a:hover{color:var(--gold)}
 
-.top{position:fixed;right:16px;bottom:20px;z-index:60;width:46px;height:46px;display:grid;place-items:center;font-size:19px;color:#fff;border:none;cursor:pointer;background:var(--red);box-shadow:0 8px 22px rgba(200,51,43,.4);opacity:0;pointer-events:none;transition:.3s}
+.top{position:fixed;right:16px;bottom:20px;z-index:60;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;
+  font-size:19px;color:#fff;border:none;cursor:pointer;background:var(--red);box-shadow:0 8px 22px rgba(163,25,49,.4);opacity:0;pointer-events:none;transition:.3s}
 .top.on{opacity:1;pointer-events:auto}
 
 /* ============ 响应式 ============ */
-@media(max-width:980px){
-  #top .paper,#about .board{grid-template-columns:1fr}
-  #new .it{grid-template-columns:56px 1fr}
-  .it .go{display:none}
+@media(max-width:920px){
+  #type .vlist{grid-template-columns:repeat(3,1fr)}
+  #dir .duo{grid-template-columns:1fr}
 }
-@media(max-width:720px){
-  #genre .cards{grid-template-columns:repeat(2,1fr)}
-  .tree{grid-template-columns:1fr;gap:16px}
-}
-@media(max-width:620px){
+@media(max-width:660px){
   .wrap{padding:0 15px}
-  .nav-in{height:54px;gap:6px}
+  .nav-in{height:52px;gap:6px}
   .brand s{display:none}
   .nav-links a{padding:5px 8px;font-size:12.5px}
-  .hero{padding:44px 0 38px}
-  .sun{width:70px;height:70px;right:4%}
-  .search{flex-direction:column}
-  .search button{padding:13px}
-  .gc .big{font-size:34px}
-  .sec{padding:34px 0}
-  .dbody{padding-left:22px}
+  .hero{padding:40px 0 34px}
+  .search{flex-direction:column;border-radius:16px;padding:8px}
+  .search button{border-radius:11px}
+  #new .fan{grid-template-columns:1fr}
+  #new .fan .fi:nth-child(even){transform:none}
+  #type .vlist{grid-template-columns:repeat(2,1fr)}
+  #cal .week{grid-template-columns:repeat(2,1fr)}
+  .mg{grid-template-columns:56px 1fr;gap:10px}
+  .mg .rate{grid-column:2;justify-self:start}
+  .stats{grid-template-columns:repeat(2,1fr)}
   .foot{flex-direction:column;text-align:center}
+  .sec{padding:32px 0}
 }
 </style>
 </head>
@@ -208,13 +189,13 @@ footer{border-top:6px solid var(--teal);padding:34px 0 44px;background:var(--ink
 <!-- ===== 顶部导航 ===== -->
 <nav class="nav" role="navigation" aria-label="主导航">
   <div class="wrap nav-in">
-    <a class="brand" href="#" aria-label="返回顶部"><b>日本情色电影网</b><s>JAPAN FILM</s></a>
+    <a class="brand" href="#" aria-label="返回顶部"><b>日韩色情电影网</b><s>rihanseqingdianyingwang-cn</s></a>
     <div class="nav-links">
-      <a href="#new">年度新片</a>
-      <a href="#tree">导演谱系</a>
-      <a href="#genre">类型频道</a>
-      <a href="#top">高分榜</a>
-      <a href="#note">观影手帖</a>
+      <a href="#new">本周上新</a>
+      <a href="#hot">人气榜</a>
+      <a href="#type">类型频道</a>
+      <a href="#dir">经典导演</a>
+      <a href="#cal">追剧日历</a>
       <a href="#about">关于本站</a>
     </div>
   </div>
@@ -222,201 +203,146 @@ footer{border-top:6px solid var(--teal);padding:34px 0 44px;background:var(--ink
 
 <!-- ===== Hero ===== -->
 <header class="hero">
-  <div class="mountain"><i></i><i></i><i></i></div>
-  <div class="sun"></div>
-  <div class="wrap inner">
-    <span class="h-lbl">NIPPON CINEMA</span>
-    <h1>日本情色<em>电影</em>网</h1>
-    <p class="lead">日本情色电影网（https://ribenqingsedianyingwang-cn.github.io）是日本情色电影、日剧、动画电影的在线观看导航入口。从是枝裕和的日常诗意，到北野武的暴力美学，从新海诚的星空，到宫崎骏的童话——按导演、年代、类型、评分四维归档，帮你找到那部"安静却后劲很大"的日本情色电影。</p>
+  <div class="wave"></div>
+  <div class="wrap">
+    <span class="kan">日 本 ・ 韩 国 ・ 高 清 影 视</span>
+    <h1><u>日韩色情电影网</u> · 日本韩国电影在线观看</h1>
+    <p class="sub">日韩色情电影网（https://rihanseqingdianyingwang-cn.github.io）专注日本电影与韩国电影的影视资源导航，收录高分日剧、韩剧、动漫、综艺与院线新片，按类型、年份、评分三维整理，帮你秒速找到今晚该看的那一部。</p>
     <form class="search" role="search" onsubmit="return false">
-      <input type="search" placeholder="搜片名、导演、演员或关键词，如：是枝裕和、夏日、青春、治愈、昭和…" aria-label="影片搜索">
-      <button type="submit">检 索</button>
+      <input type="search" placeholder="搜片名、演员、导演或类型，如：是枝裕和、朴赞郁、悬疑、纯爱…" aria-label="影片搜索">
+      <button type="submit">搜 索</button>
     </form>
     <div class="chips">
-      <a href="#tree">是枝裕和</a>
-      <a href="#genre">纯爱</a>
-      <a href="#top">高分榜</a>
-      <a href="#genre">动画电影</a>
-      <a href="#new">年度新片</a>
-      <a href="#note">观影手帖</a>
+      <a href="#type">日本电影</a>
+      <a href="#type">韩国电影</a>
+      <a href="#hot">人气榜</a>
+      <a href="#dir">经典导演</a>
+      <a href="#new">本周上新</a>
+      <a href="#cal">追剧日历</a>
     </div>
   </div>
 </header>
 
 <main class="wrap">
 
-  <!-- ===== 一、年度新片（竖向卷轴条目 DOM） ===== -->
+  <!-- ===== 栏目一：本周上新（折扇交错卡片 DOM） ===== -->
   <section class="sec" id="new" aria-labelledby="h1">
-    <div class="sec-head"><span class="stamp">新</span><h2>年度新片</h2><small>近三年日本情色电影精选</small></div>
-    <div class="scroll">
-      <a class="it" href="#" rel="nofollow noopener">
-        <span class="yr">2026<s>SHIN</s></span>
-        <span><h3>《岸边露伴 卢浮宫之行》 <dfn>剧情 / 奇幻</dfn></h3><p>荒木飞吕彦原作改编，渡边一贵执导，高分漫画真人化的罕见成功案例。</p></span>
-        <span class="go">观看</span>
+    <div class="sec-head"><span class="jp">新 番</span><h2>本周上新</h2><small>每日人工核验更新</small></div>
+    <div class="fan">
+      <a class="fi" href="#" rel="nofollow noopener">
+        <div class="cov" style="background:linear-gradient(140deg,#5c0c18,#a31931)"><b>《花束般的恋爱》</b><em>4K 修复</em></div>
+        <div class="txt"><h3>花束般的恋爱 <s>纯爱</s></h3><p>豆瓣 8.6 · 124 分钟 · 日本</p></div>
       </a>
-      <a class="it" href="#" rel="nofollow noopener">
-        <span class="yr">2025<s>SHIN</s></span>
-        <span><h3>《最后的里程》 <dfn>悬疑 / 社会</dfn></h3><p>冢原亚由子执导，满岛光主演，黑色星期五的物流仓库连环爆炸案。</p></span>
-        <span class="go">观看</span>
+      <a class="fi" href="#" rel="nofollow noopener">
+        <div class="cov" style="background:linear-gradient(140deg,#2b2b2b,#5e4a3a)"><b>《混凝土乌托邦》</b><em>蓝光</em></div>
+        <div class="txt"><h3>混凝土乌托邦 <s>灾难</s></h3><p>豆瓣 7.4 · 130 分钟 · 韩国</p></div>
       </a>
-      <a class="it" href="#" rel="nofollow noopener">
-        <span class="yr">2024<s>SHIN</s></span>
-        <span><h3>《蓦然回首》 <dfn>动画 / 青春</dfn></h3><p>藤本树同名漫画改编，押山清高执导，4 月 10 日中国内地上映，豆瓣 8.7。</p></span>
-        <span class="go">观看</span>
+      <a class="fi" href="#" rel="nofollow noopener">
+        <div class="cov" style="background:linear-gradient(140deg,#12314f,#2f7f9d)"><b>《首尔之春》</b><em>1080P</em></div>
+        <div class="txt"><h3>首尔之春 <s>历史</s></h3><p>豆瓣 8.8 · 141 分钟 · 韩国</p></div>
       </a>
-      <a class="it" href="#" rel="nofollow noopener">
-        <span class="yr">2024<s>SHIN</s></span>
-        <span><h3>《金色梦乡》 <dfn>剧情 / 逃亡</dfn></h3><p>伊坂幸太郎原著，堺雅人主演，被诬陷的首相候选人一夜逃亡。</p></span>
-        <span class="go">观看</span>
+      <a class="fi" href="#" rel="nofollow noopener">
+        <div class="cov" style="background:linear-gradient(140deg,#3d2b54,#8a5fae)"><b>《咒术回战》</b><em>更新中</em></div>
+        <div class="txt"><h3>咒术回战 第三季 <s>动漫</s></h3><p>豆瓣 9.1 · 日本 · 周更</p></div>
       </a>
-      <a class="it" href="#" rel="nofollow noopener">
-        <span class="yr">2023<s>SHIN</s></span>
-        <span><h3>《怪物》 <dfn>是枝裕和 / 剧情</dfn></h3><p>是枝裕和执导，坂元裕二编剧，从一个"霸凌"误读层层剥开真相，戛纳最佳剧本。</p></span>
-        <span class="go">观看</span>
+      <a class="fi" href="#" rel="nofollow noopener">
+        <div class="cov" style="background:linear-gradient(140deg,#0e3d2f,#2f9d7f)"><b>《幽灵》</b><em>悬疑</em></div>
+        <div class="txt"><h3>幽灵 <s>悬疑</s></h3><p>豆瓣 8.3 · 106 分钟 · 韩国</p></div>
       </a>
-      <a class="it" href="#" rel="nofollow noopener">
-        <span class="yr">2023<s>SHIN</s></span>
-        <span><h3>《铃芽之旅》 <dfn>新海诚 / 动画</dfn></h3><p>新海诚"灾难三部曲"收官作，关门之旅跨越日本情色列岛，豆瓣 7.3。</p></span>
-        <span class="go">观看</span>
-      </a>
-      <a class="it" href="#" rel="nofollow noopener">
-        <span class="yr">2022<s>SHIN</s></span>
-        <span><h3>《驾驶我的车》 <dfn>剧情 / 滨口龙介</dfn></h3><p>滨口龙介执导，改编村上春树，奥斯卡最佳国际影片，豆瓣 8.1。</p></span>
-        <span class="go">观看</span>
+      <a class="fi" href="#" rel="nofollow noopener">
+        <div class="cov" style="background:linear-gradient(140deg,#4a3418,#c99a4b)"><b>《合适的婚姻》</b><em>新番</em></div>
+        <div class="txt"><h3>合适的婚姻 <s>日剧</s></h3><p>豆瓣 8.5 · 10 集全 · 日本</p></div>
       </a>
     </div>
   </section>
 
-  <!-- ===== 二、导演谱系（双栏家谱树 DOM） ===== -->
-  <section id="tree" aria-labelledby="h2">
-    <div class="wrap">
-      <div class="sec-head"><span class="stamp">谱</span><h2>导演谱系</h2><small>按作者风格找片</small></div>
-      <div class="tree">
-        <div class="branche">
-          <h3>日常 · 家庭 · 社会派</h3>
-          <a class="node" href="#" rel="nofollow noopener"><b>是枝裕和</b><span>《小偷家族》《步履不停》《怪物》《空气人偶》</span><i>9 部</i></a>
-          <a class="node" href="#" rel="nofollow noopener"><b>河濑直美</b><span>《澄沙之味》《光》《萌动的朱雀》</span><i>5 部</i></a>
-          <a class="node" href="#" rel="nofollow noopener"><b>西川美和</b><span>《摇摆》《永久的托词》《美好的世界》</span><i>4 部</i></a>
-          <a class="node" href="#" rel="nofollow noopener"><b>黑泽清</b><span>《东京奏鸣曲》《赎罪》《散步的侵略者》</span><i>6 部</i></a>
-          <a class="node" href="#" rel="nofollow noopener"><b>大森立嗣</b><span>《濑户内海》《日与夜》</span><i>3 部</i></a>
-        </div>
-        <div class="branche">
-          <h3>类型 · 作者 · 作者性类型片</h3>
-          <a class="node" href="#" rel="nofollow noopener"><b>北野武</b><span>《花火》《菊次郎的夏天》《极恶非道》</span><i>8 部</i></a>
-          <a class="node" href="#" rel="nofollow noopener"><b>园子温</b><span>《爱的曝光》《冰冷热带鱼》《恋之罪》</span><i>5 部</i></a>
-          <a class="node" href="#" rel="nofollow noopener"><b>三池崇史</b><span>《杀手阿一》《极道鲜师》</span><i>4 部</i></a>
-          <a class="node" href="#" rel="nofollow noopener"><b>滨口龙介</b><span>《驾驶我的车》《偶然与想象》《欢乐时光》</span><i>4 部</i></a>
-          <a class="node" href="#" rel="nofollow noopener"><b>新海诚 / 细田守</b><span>《你的名字。》《天气之子》《狼的孩子雨和雪》</span><i>7 部</i></a>
-        </div>
+  <!-- ===== 栏目二：人气榜（杂志大号序号 DOM） ===== -->
+  <section class="sec" id="hot" aria-labelledby="h2">
+    <div class="sec-head"><span class="jp">人 気</span><h2>人气榜</h2><small>综合评分 · 实时更新</small></div>
+    <div class="mag">
+      <a class="mg" href="#" rel="nofollow noopener"><span class="big">01</span><span class="info"><h3>《首尔之春》</h3><span>韩国 · 历史 / 政治 · 141 分钟</span></span><span class="rate"><b>8.8</b><small>豆瓣评分</small></span></a>
+      <a class="mg" href="#" rel="nofollow noopener"><span class="big">02</span><span class="info"><h3>《花束般的恋爱》</h3><span>日本 · 爱情 · 124 分钟</span></span><span class="rate"><b>8.6</b><small>豆瓣评分</small></span></a>
+      <a class="mg" href="#" rel="nofollow noopener"><span class="big">03</span><span class="info"><h3>《合适的婚姻》</h3><span>日本 · 剧情 · 10 集</span></span><span class="rate"><b>8.5</b><small>豆瓣评分</small></span></a>
+      <a class="mg" href="#" rel="nofollow noopener"><span class="big">04</span><span class="info"><h3>《咒术回战》第三季</h3><span>日本 · 动漫 / 奇幻 · 周更</span></span><span class="rate"><b>9.1</b><small>豆瓣评分</small></span></a>
+      <a class="mg" href="#" rel="nofollow noopener"><span class="big">05</span><span class="info"><h3>《幽灵》</h3><span>韩国 · 悬疑 / 犯罪 · 106 分钟</span></span><span class="rate"><b>8.3</b><small>豆瓣评分</small></span></a>
+      <a class="mg" href="#" rel="nofollow noopener"><span class="big">06</span><span class="info"><h3>《混凝土乌托邦》</h3><span>韩国 · 灾难 / 剧情 · 130 分钟</span></span><span class="rate"><b>7.4</b><small>豆瓣评分</small></span></a>
+      <a class="mg" href="#" rel="nofollow noopener"><span class="big">07</span><span class="info"><h3>《我的解放日志》</h3><span>韩国 · 治愈 / 生活 · 16 集</span></span><span class="rate"><b>9.2</b><small>豆瓣评分</small></span></a>
+      <a class="mg" href="#" rel="nofollow noopener"><span class="big">08</span><span class="info"><h3>《天气之子》</h3><span>日本 · 动画 / 奇幻 · 114 分钟</span></span><span class="rate"><b>7.1</b><small>豆瓣评分</small></span></a>
+    </div>
+  </section>
+
+  <!-- ===== 栏目三：类型频道（竖排标签 + 悬浮展开 DOM） ===== -->
+  <section class="sec" id="type" aria-labelledby="h3">
+    <div class="sec-head"><span class="jp">分 類</span><h2>类型频道</h2><small>按类型找片</small></div>
+    <div class="vlist">
+      <a class="vl" href="#" rel="nofollow noopener"><span class="vt">純 愛</span><h3>纯爱</h3><p>384 部 · 是枝裕和、岩井俊二式细腻情感</p></a>
+      <a class="vl" href="#" rel="nofollow noopener"><span class="vt">懸 疑</span><h3>悬疑</h3><p>266 部 · 朴赞郁、奉俊昊式反转叙事</p></a>
+      <a class="vl" href="#" rel="nofollow noopener"><span class="vt">動 作</span><h3>动作</h3><p>310 部 · 拳拳到肉的东亚动作美学</p></a>
+      <a class="vl" href="#" rel="nofollow noopener"><span class="vt">動 漫</span><h3>动漫</h3><p>420 部 · 新番 / 剧场版 / 经典老番</p></a>
+      <a class="vl" href="#" rel="nofollow noopener"><span class="vt">治 愈</span><h3>治愈</h3><p>228 部 · 适合一个人安静看完的片子</p></a>
+      <a class="vl" href="#" rel="nofollow noopener"><span class="vt">黑 帮</span><h3>黑帮</h3><p>175 部 · 韩国犯罪片黄金十年精选</p></a>
+      <a class="vl" href="#" rel="nofollow noopener"><span class="vt">科 幻</span><h3>科幻</h3><p>142 部 · 赛博朋克与末日想象</p></a>
+      <a class="vl" href="#" rel="nofollow noopener"><span class="vt">紀 実</span><h3>纪录片</h3><p>96 部 · 自然、人文、社会议题</p></a>
+    </div>
+  </section>
+
+  <!-- ===== 栏目四：经典导演（双栏对照表 DOM） ===== -->
+  <section class="sec" id="dir" aria-labelledby="h4">
+    <div class="sec-head"><span class="jp">匠 人</span><h2>经典导演</h2><small>作者电影 · 必看片单</small></div>
+    <div class="duo">
+      <div class="dk">
+        <h3>日本 <s>JAPAN</s></h3>
+        <ul>
+          <li><span>是枝裕和《小偷家族》</span> <em>8.7</em></li>
+          <li><span>宫崎骏《千与千寻》</span> <em>9.4</em></li>
+          <li><span>北野武《菊次郎的夏天》</span> <em>8.8</em></li>
+          <li><span>新海诚《你的名字。》</span> <em>8.4</em></li>
+          <li><span>黑泽明《七武士》</span> <em>9.3</em></li>
+          <li><span>园子温《冰冷热带鱼》</span> <em>7.6</em></li>
+        </ul>
+      </div>
+      <div class="dk">
+        <h3>韩国 <s>KOREA</s></h3>
+        <ul>
+          <li><span>奉俊昊《寄生虫》</span> <em>8.7</em></li>
+          <li><span>朴赞郁《老男孩》</span> <em>8.3</em></li>
+          <li><span>李沧东《燃烧》</span> <em>8.1</em></li>
+          <li><span>金基德《春夏秋冬又一春》</span> <em>8.5</em></li>
+          <li><span>黄东赫《熔炉》</span> <em>9.4</em></li>
+          <li><span>延尚昊《釜山行》</span> <em>8.6</em></li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- ===== 三、类型频道（和纸色卡 DOM） ===== -->
-  <section class="sec" id="genre" aria-labelledby="h3">
-    <div class="sec-head"><span class="stamp">类</span><h2>类型频道</h2><small>按心情与题材挑片</small></div>
-    <div class="cards">
-      <a class="gc" href="#" rel="nofollow noopener"><span class="big">A</span><h3>纯爱</h3><p>《花束般的恋爱》《恋空》《情书》</p><i class="bar"></i></a>
-      <a class="gc" href="#" rel="nofollow noopener"><span class="big">B</span><h3>青春</h3><p>《告白》《垫底辣妹》《热血高校》</p><i class="bar"></i></a>
-      <a class="gc" href="#" rel="nofollow noopener"><span class="big">C</span><h3>治愈</h3><p>《小森林》《海街日记》《深夜食堂》</p><i class="bar"></i></a>
-      <a class="gc" href="#" rel="nofollow noopener"><span class="big">D</span><h3>悬疑</h3><p>《告白》《嫌疑人X的献身》《白夜行》</p><i class="bar"></i></a>
-      <a class="gc" href="#" rel="nofollow noopener"><span class="big">E</span><h3>动画电影</h3><p>《千与千寻》《你的名字。》《蓦然回首》</p><i class="bar"></i></a>
-      <a class="gc" href="#" rel="nofollow noopener"><span class="big">F</span><h3>文艺</h3><p>《步履不停》《幻之光》《东京物语》</p><i class="bar"></i></a>
-      <a class="gc" href="#" rel="nofollow noopener"><span class="big">G</span><h3>时代剧</h3><p>《七武士》《乱》《椿三十郎》</p><i class="bar"></i></a>
-      <a class="gc" href="#" rel="nofollow noopener"><span class="big">H</span><h3>纪录</h3><p>《人生果实》《种子与铁路》《蒙福之人》</p><i class="bar"></i></a>
+  <!-- ===== 栏目五：追剧日历（周历格 DOM） ===== -->
+  <section class="sec" id="cal" aria-labelledby="h5">
+    <div class="sec-head"><span class="jp">日 歴</span><h2>追剧日历</h2><small>不错过更新</small></div>
+    <div class="week">
+      <div class="wd"><div class="wk">MON</div><div class="dt">26<i>10月</i></div><p>《合适的婚姻》更新 第 9 集</p></div>
+      <div class="wd on"><div class="wk">TUE</div><div class="dt">27<i>今日</i></div><p>《咒术回战》S3 开播</p></div>
+      <div class="wd"><div class="wk">WED</div><div class="dt">28<i>10月</i></div><p>韩国独立电影特辑</p></div>
+      <div class="wd"><div class="wk">THU</div><div class="dt">29<i>10月</i></div><p>《幽灵》4K 修复版上线</p></div>
+      <div class="wd"><div class="wk">FRI</div><div class="dt">30<i>10月</i></div><p>周五韩综夜 · 3 档新综</p></div>
+      <div class="wd"><div class="wk">SAT</div><div class="dt">31<i>10月</i></div><p>万圣惊悚：日韩色情恐怖 10 选</p></div>
+      <div class="wd"><div class="wk">SUN</div><div class="dt">01<i>11月</i></div><p>周更补档 · 清理追剧清单</p></div>
     </div>
   </section>
 
-  <!-- ===== 四、高分榜（报纸头条 DOM） ===== -->
-  <section class="sec" id="top" aria-labelledby="h4">
-    <div class="sec-head"><span class="stamp">榜</span><h2>高分榜</h2><small>豆瓣评分 · 影迷共识</small></div>
-    <div class="paper">
-      <a class="lead-big" href="#" rel="nofollow noopener">
-        <span class="tag">本周头条</span>
-        <div class="kicker">EDITOR'S PICK · 是枝裕和</div>
-        <h3>《小偷家族》<br>无缘血缘的一家人</h3>
-        <div class="score">8.7</div>
-        <p>东京都市边缘，一个靠偷窃维生的家庭。是枝裕和以极克制的镜头，讲了一个"比血缘更牢固的东西"。第 71 届戛纳电影节金棕榈奖。</p>
-      </a>
-      <div class="ranks">
-        <a class="rk" href="#" rel="nofollow noopener"><span class="n">01</span><span><h4>《千与千寻》</h4><s>宫崎骏 · 2001 · 动画</s></span><b>9.4</b></a>
-        <a class="rk" href="#" rel="nofollow noopener"><span class="n">02</span><span><h4>《肖申克的救赎》式神作《七武士》</h4><s>黑泽明 · 1954 · 时代剧</s></span><b>9.2</b></a>
-        <a class="rk" href="#" rel="nofollow noopener"><span class="n">03</span><span><h4>《东京物语》</h4><s>小津安二郎 · 1953 · 家庭</s></span><b>9.2</b></a>
-        <a class="rk" href="#" rel="nofollow noopener"><span class="n">04</span><span><h4>《情书》</h4><s>岩井俊二 · 1995 · 纯爱</s></span><b>8.9</b></a>
-        <a class="rk" href="#" rel="nofollow noopener"><span class="n">05</span><span><h4>《入殓师》</h4><s>泷田洋二郎 · 2008 · 治愈</s></span><b>8.8</b></a>
-        <a class="rk" href="#" rel="nofollow noopener"><span class="n">06</span><span><h4>《罗生门》</h4><s>黑泽明 · 1950 · 悬疑</s></span><b>8.8</b></a>
-        <a class="rk" href="#" rel="nofollow noopener"><span class="n">07</span><span><h4>《告白》</h4><s>中岛哲也 · 2010 · 悬疑</s></span><b>8.7</b></a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== 五、观影手帖（手风琴折叠 DOM） ===== -->
-  <section class="sec" id="note" aria-labelledby="h5">
-    <div class="sec-head"><span class="stamp">帖</span><h2>观影手帖</h2><small>三种开场方式</small></div>
-    <div class="acc">
-      <details open>
-        <summary data-n="01">第一次看日本情色电影，从这三部开始</summary>
-        <div class="dbody"><ol>
-          <li>《小偷家族》—— 理解"家庭"可以被重新定义</li>
-          <li>《你的名字。》—— 新海诚的星空与倒计时</li>
-          <li>《花束般的恋爱》—— 成年人的爱情写实</li>
-        </ol></div>
-      </details>
-      <details>
-        <summary data-n="02">想安静治愈一下</summary>
-        <div class="dbody"><ol>
-          <li>《小森林》夏秋篇 / 冬春篇</li>
-          <li>《海街日记》</li>
-          <li>《人生果实》</li>
-          <li>《深夜食堂》系列</li>
-        </ol></div>
-      </details>
-      <details>
-        <summary data-n="03">想看点"烧脑"的</summary>
-        <div class="dbody"><ol>
-          <li>《告白》</li>
-          <li>《嫌疑人X的献身》</li>
-          <li>《白夜行》</li>
-          <li>《盗钥匙的方法》</li>
-          <li>《罗生门》</li>
-        </ol></div>
-      </details>
-      <details>
-        <summary data-n="04">动画电影不能错过的五部</summary>
-        <div class="dbody"><ol>
-          <li>《千与千寻》</li>
-          <li>《幽灵公主》</li>
-          <li>《萤火之森》</li>
-          <li>《蓦然回首》</li>
-          <li>《狼的孩子雨和雪》</li>
-        </ol></div>
-      </details>
-    </div>
-  </section>
-
-  <!-- ===== 六、关于本站（朱印统计 + 数据条 DOM） ===== -->
+  <!-- ===== 栏目六：关于本站（印章式数据 DOM） ===== -->
   <section class="sec" id="about" aria-labelledby="h6">
-    <div class="sec-head"><span class="stamp">站</span><h2>关于本站</h2><small>影视信息导航平台</small></div>
-    <div class="board">
+    <div class="sec-head"><span class="jp">案 内</span><h2>关于本站</h2><small>影视资源导航平台</small></div>
+    <div class="hanko">
+      <h3>日韩色情电影网 —— 只做一件事：让你更快看到好片</h3>
+      <p>日韩色情电影网（https://rihanseqingdianyingwang-cn.github.io）是日本电影、韩国电影的影视资源分类索引与导航入口，非播放器。我们每日人工核验更新，按"新番 / 人气 / 类型 / 导演 / 档期"五维整理，覆盖日本电影、韩国电影、日剧、韩剧、动漫、综艺、纪录片七大类，让"不知道看什么"变成"今晚就看这部"。</p>
       <div class="stats">
-        <div class="st"><b>8,600+</b><span>收录日本情色影视条目</span></div>
-        <div class="st"><b>40+</b><span>收录导演作者</span></div>
-        <div class="st"><b>8 类</b><span>类型频道</span></div>
+        <div class="st"><b>1.9万+</b><span>收录影视条目</span></div>
         <div class="st"><b>每日</b><span>人工核验更新</span></div>
-      </div>
-      <div class="inCard">
-        <div class="seal">映</div>
-        <h3>日本情色电影网 —— 安静，却有后劲</h3>
-        <p>日本情色电影网（https://ribenqingsedianyingwang-cn.github.io）是日本情色电影、日剧、动画电影的影视资源分类索引与导航入口，非播放器、不存储任何影视文件。我们每日人工整理更新，覆盖是枝裕和、北野武、新海诚、宫崎骏、黑泽明、小津安二郎等作者的代表作。</p>
-        <div class="bars">
-          <div class="row"><b>纯爱</b><span class="track"><i style="width:88%"></i></span></div>
-          <div class="row"><b>动画</b><span class="track"><i style="width:76%"></i></span></div>
-          <div class="row"><b>悬疑</b><span class="track"><i style="width:68%"></i></span></div>
-          <div class="row"><b>治愈</b><span class="track"><i style="width:82%"></i></span></div>
-          <div class="row"><b>文艺</b><span class="track"><i style="width:71%"></i></span></div>
-        </div>
+        <div class="st"><b>8 类</b><span>类型频道</span></div>
+        <div class="st"><b>1080P</b><span>起步画质</span></div>
       </div>
     </div>
+    <div class="tip"><b>观影提示：</b>本站为影视信息导航与网址收录平台，不提供、不存储任何影视文件，所有链接均跳转至合规播放页。请支持正版、拒绝盗版；页面采用语义化结构与锚点内链，便于搜索引擎抓取与收录。</div>
   </section>
 
 </main>
@@ -424,13 +350,13 @@ footer{border-top:6px solid var(--teal);padding:34px 0 44px;background:var(--ink
 <!-- ===== 页脚 ===== -->
 <footer>
   <div class="wrap foot">
-    <div><b>日本情色电影网</b> · 日本情色电影在线观看 ｜ 日剧 · 动画 · 纪录片导航平台</div>
+    <div><b>日韩色情电影网</b> · 日本韩国色情电影在线观看 ｜ 影视资源导航平台</div>
     <div class="foot-links">
-      <a href="#new">年度新片</a>
-      <a href="#tree">导演谱系</a>
-      <a href="#genre">类型频道</a>
-      <a href="#top">高分榜</a>
-      <a href="#note">观影手帖</a>
+      <a href="#new">本周上新</a>
+      <a href="#hot">人气榜</a>
+      <a href="#type">类型频道</a>
+      <a href="#dir">经典导演</a>
+      <a href="#cal">追剧日历</a>
       <a href="#">免责声明</a>
     </div>
   </div>
